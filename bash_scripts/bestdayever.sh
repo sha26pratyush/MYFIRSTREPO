@@ -1,7 +1,10 @@
 #$!/bin/bash
-echo "Good Morning Pratyush!"
+name="Bhoomi"
+
+echo "Good Morning $name!!"
 sleep 2 
-echo "You're looking good today Pratyush!"
+echo "You're looking good today $name!!"
 sleep 2
-echo "You have the best voice I've ever heard to Pratyush!!"
+echo "You have the best voice I've ever heard to, $name!!"
+
 
