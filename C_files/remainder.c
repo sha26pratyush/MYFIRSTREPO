@@ -6,7 +6,7 @@ int main () {
 	printf("Enter the second number:\n ") ;
 	scanf("%d" , &b) ;
 
-	remainder = a % b, remainder ;
+	remainder = a % b ;
 	printf("The remainder of the two numbers is:%d\n" , remainder) ;
 	return 0 ;
 }
