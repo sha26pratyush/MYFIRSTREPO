@@ -14,7 +14,7 @@ sub = a - b ;
 multi = a*b ;
 div = a / b ; 
 
-printf("Sum of the two numbers is %d.\n Subtraction of the two numbers is %d.\n Multiplication of the two numbers is %d.\n Division of the two numbers is %d.\n", sum, sub, multi, div);
+printf("\nAddition of the two numbers %d and %d is %d.\nSubtraction of the two numbers %d and %d is %d.\nMultiplication of the two numbers %d and %d is %d.\nDivision of the two numbers %d and %d is %d.\n", a, b, sum, a, b, sub, a, b, multi, a, b, div);
 
 return 0;
 }
