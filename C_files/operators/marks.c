@@ -2,6 +2,7 @@
 int main(void)
 {
 	int phy, che, math, bio, cse ;
+
 	printf("Enter the marks obtained in Physics: \n");
 	scanf("%d", &phy);
 	printf("Enter the marks obtained in Chemistry: \n");
@@ -13,9 +14,12 @@ int main(void)
 	printf("Enter the marks obtained in CSE: \n");
 	scanf("%d" , &cse);
 	
-float total=phy+che+math+bio+cse ;
+
+float total=phy+che+math+bio+cse,
+     percentage=total/500 * 100 ;
 float required=165 ; /*Out of 500. */
 
+printf("The percentage obtained is %f \n" , percentage) ;
 	(total >= required)?printf("PASS!\n"):printf("FAIL!\n") ;
 } 
 
