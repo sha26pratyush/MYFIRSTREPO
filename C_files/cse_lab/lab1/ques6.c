@@ -15,6 +15,10 @@ int main(void) {
     printf("The Final Speed (v) is %f.\n", v);
 
 //program to calculate s=ut+1/2at*t 
-    return 0;
+	float s;
+	s = u*t + 1/2*a*t*t;
+	printf("The value of (s) is %f.\n", s);
+
+return 0;
 }
 
