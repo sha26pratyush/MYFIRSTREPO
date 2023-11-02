@@ -25,10 +25,15 @@ switch(op) {
 	printf("Multiplication of the two numbers is %f\n", n1*n2);
 	break;
 	case'/':
-	printf("Division of the two numbers is %f\n", n1/n2);
-	break;
+		if (n2 != 0) {	
+			printf("Division of the two numbers is %f\n", n1/n2);
+		}
+		else {
+			printf("Division by Zero\nExiting program...\n");
+		}
+		break;
 	default:
-	printf("Invalid operator.\nExitiing program...\n");
+	printf("Invalid operator\nExitiing program...\n");
 }
 
 return 0;
