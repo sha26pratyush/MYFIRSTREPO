@@ -1,0 +1,83 @@
+git init:
+Initialize a new Git repository in the current directory.
+
+git config --global user.name "Your Name":
+Configure your Git username globally.
+
+git config --global user.email your.email@example.com:
+Configure your Git email globally.
+
+git clone remote-repository-url:
+Create a local copy of a remote repository on your computer.
+
+git add filename:
+Stage changes in the specified file for the next commit.
+
+git commit -m "Your commit message":
+Create a new commit with the staged changes and a descriptive message.
+
+git log:
+View the commit history, showing the details of past commits.
+
+git branch branch-name:
+Create a new branch with the specified name.
+
+git checkout branch-name:
+Switch to the specified branch.
+
+git remote add origin remote-repository-url:
+Link your local repository to a remote repository.
+
+git push origin branch-name:
+Push your local commits to the remote repository's branch.
+
+git pull origin branch-name:
+Fetch and merge changes from a remote repository into your local branch.
+
+git revert commit-hash:
+Create a new commit that undoes the changes introduced by a specific commit.
+
+git remote -v:
+List all remote repositories and their URLs.
+
+git remote set-url origin new-remote-url:
+Change the URL associated with a remote repository.
+
+git remote rename old-name new-name:
+Rename an existing remote repository.
+
+git remote remove remote-name:
+Remove a remote repository from your local configuration.
+
+git checkout -b branch-name:
+Create and switch to a new branch in one command.
+
+git restore --staged filename:
+Unstage a previously staged change, making it unstaged again.
+
+git restore filename:
+Discard changes in the working directory for the specified file.
+
+git stash:
+Temporarily save your current changes that you don't want to commit yet, allowing you to switch to another branch or perform other operations.
+
+git stash pop:
+Apply the most recent stash and remove it from the stash list. This is used to reapply your saved changes.
+
+git stash list:
+List all the stashes you've created, showing their unique identifiers and descriptions.
+
+git stash apply stash@{n}:
+Apply a specific stash from the stash list without removing it. Replace {n} with the index of the stash you want to apply.
+
+git stash drop stash@{n}:
+Remove a specific stash from the stash list without applying it. Replace {n} with the index of the stash you want to remove.
+
+git stash clear:
+Remove all stashes from the stash list. This clears the entire stash history.
+
+git branch -D branch-name
+Delete the branch even if it's not been merged into the main branch. (Force Delete)
+
+git branch -d branch-name
+Delete the branch if it's been completely merged into the main branch.
